@@ -21,8 +21,6 @@ function Banner() {
         fetchData()
     }, [])
 
-    console.log(movie)
-
     function subs(str) {
         return str?.length > 150 ? str.substr(0, 149) + "..." : str;
     }
